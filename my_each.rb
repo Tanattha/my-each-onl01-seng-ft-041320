@@ -1,3 +1,5 @@
-def my_each # put argument(s) here
+def my_each(array)
+  array do |collection|
+    puts array
   # code here
 end
